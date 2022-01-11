@@ -155,5 +155,9 @@ bot.command('contact',ctx=>{
     ctx.reply("@refundagent")
 })
 
+bot.hears('contact',ctx=>{
+    ctx.reply("@refundagent")
+})
+
 
 module.exports = bot
